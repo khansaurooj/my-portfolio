@@ -1,23 +1,3 @@
-// import React from "react";
-
-// const Skills = () => {
-//   return (
-//     <section id="skills">
-//       <h2>Skills</h2>
-//       <ul>
-//         <li>Frontend: HTML, CSS, JavaScript, Bootstrap, React.js</li>
-//         <li>Backend: Flask, Django, REST APIs</li>
-//         <li>Databases: MySQL, MongoDB</li>
-//         <li>AI/ML: ANN, Random Forest, Gradient Boosting, ARIMA, SARIMA, CatBoost, TensorFlow/Keras</li>
-//         <li>Tools: Git, GitHub, Colab, VS Code, Netlify, Vercel</li>
-//       </ul>
-//     </section>
-//   );
-// };
-
-// export default Skills;
-
-
 
 import React from "react";
 
@@ -25,11 +5,11 @@ const Skills = () => {
   const skills = [
     {
       title: "Frontend",
-      items: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js"],
+      items: ["HTML", "CSS", "JavaScript","Tailwindcss", "Bootstrap", "React.js"],
     },
     {
       title: "Backend",
-      items: ["Flask", "Django", "REST APIs"],
+      items: ["Flask",  "REST APIs"],
     },
     {
       title: "Databases",

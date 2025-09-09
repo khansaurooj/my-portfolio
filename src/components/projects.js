@@ -2,21 +2,28 @@
 import React, { useState } from "react";
 
 const projectData = [
-  {
-    title: "AI-Based COVID-19 Forecasting & Analysis",
-    description: "Forecast COVID-19 cases using ML models; Django app for risk classification.",
-    link: "#"
-  },
+  
   {
     title: "Credit Score Classification System",
     description: "ANN + CatBoost ensemble to classify credit scores; preprocessing & deployment.",
-    link: "#"
+    link: "https://colab.research.google.com/drive/1dqdpOegtFfoedPmOVNeBtnqRYvJC3Sfd?usp=sharing"
   },
   {
-    title: "Portfolio Website",
-    description: "Responsive React portfolio showcasing projects, skills, and resume download.",
-    link: "#"
+    title: "pizza_project",
+    description: "Full-stack pizza ordering app with React frontend and Flask backend for browsing menu, managing cart, and placing orders.",
+    link: "https://github.com/khansaurooj/pizza_project"
+  },
+  {
+    title: "character counter",
+    description: "A simple web application to count characters in real-time as you type..",
+    link: "https://github.com/khansaurooj/character_counter"
+  },
+  {
+    title: "more Projects",
+    description: "on github you can see them",
+    link: "https://github.com/khansaurooj"
   }
+
 ];
 
 const Projects = () => {
