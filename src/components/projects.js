@@ -19,6 +19,16 @@ const projectData = [
     link: "https://github.com/khansaurooj/character_counter"
   },
   {
+    title: "Resume Analyzer",
+    description: "Resume_Analyzer is a web app that analyzes resumes against job descriptions, highlights matching/missing skills, and provides improvement suggestions using ML and GPT",
+    link: "https://github.com/khansaurooj/Resume_analyzer"
+  },
+  {
+    title: "Lisan Tutor",
+    description: "Lisan-Tutor is an AI-powered multilingual tutor built with FastAPI, Whisper, Hugging Face translation models, Coqui TTS, etc., that lets users transcribe speech/video, translate it into another language, listen with synthesized speech and ask questions from the content.",
+    link: "https://github.com/khansaurooj/lisan-tutor"
+  },
+  {
     title: "more Projects",
     description: "on github you can see them",
     link: "https://github.com/khansaurooj"
