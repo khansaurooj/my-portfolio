@@ -16,7 +16,7 @@ const projectData = [
   {
     title: "character counter",
     description: "A simple web application to count characters in real-time as you type..",
-    link: "https://github.com/khansaurooj/character_counter"
+    link: "https://khansaurooj.github.io/character_counter/"
   },
   {
     title: "Resume Analyzer",
