@@ -4,6 +4,8 @@ import React from "react";
 import cert1Img from "./AI.jpg";
 import cert2Img from "./RAG.jpg";
 import cert3Img from "./tabeer certificate.jpg";
+import cert3Img from "./flutter-certificat.jpg";
+
 
 const certificatesData = [
   {
@@ -20,6 +22,11 @@ const certificatesData = [
     title: "Tabeer Certification (FJWU GDGOC)",
     image: cert3Img,
     pdf: "./tabeer certificate.pdf",
+  },
+    {
+    title: "Flutter Certificate ",
+    image: cert3Img,
+    pdf: "./flutter_certificate.pdf",
   },
 ];
 
