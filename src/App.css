@@ -6,7 +6,78 @@ body, html {
   color: white;
   scroll-behavior: smooth;
 }
+/*certificates*/
+.certificates-section {
+  padding: 100px 20px;
+  background-color: #064232;
+  color: white;
+  text-align: center;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.certificate-card {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border: 2px solid #c59560;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+}
+
+.certificate-thumb {
+  width: 100%;
+  height: 150px; /* fixed small thumbnail */
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.desc button {
+  background: #064232;
+  color: white;
+  border: 1px solid #c59560;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.desc button:hover {
+  background: #c59560;
+  color: black;
+}
+
+
+
 /* Home.css */
+
+.badge-corner {
+  position: absolute;
+  top: 90px;   /* push down so it's below navbar */
+  left: 20px;  /* stick to left side */
+  z-index: 10;
+}
+
+.ibm-badge {
+  width: 80px;   /* small, professional size */
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.ibm-badge:hover {
+  transform: scale(1.1);
+}
+
 body, html {
   margin: 0;
   padding: 0;
