@@ -1,21 +1,3 @@
-// import React from "react";
-
-// const About = () => {
-//   return (
-//     <section id="about">
-//       <h2>About </h2>
-//       <p>
-//         I am a Full-Stack Web Developer and AI/ML enthusiast. Skilled in React.js, Flask, MySQL, MongoDB,
-//         and advanced machine learning techniques. I have completed multiple web and AI/ML projects combining
-//         frontend, backend, and predictive modeling.
-//       </p>
-//     </section>
-//   );
-// };
-
-// export default About;
-
-
 import React from "react";
 
 const About = () => (
@@ -31,7 +13,7 @@ const About = () => (
           Skilled in <strong>React.js</strong>, <strong>Flask</strong>, <strong>MySQL</strong>, <strong>MongoDB</strong>, and advanced predictive modeling using ML frameworks. I enjoy bridging the gap between frontend UX and backend intelligence.
         </p>
         <div className="skill-tags">
-          {["React.js", "Flask", "MongoDB", "TensorFlow", "REST API", "AI/ML"].map((skill, idx) => (
+          {["React.js", "Flask", "MongoDB", "TensorFlow", "REST API", "AI/ML","LLM"].map((skill, idx) => (
             <span key={idx}>{skill}</span>
           ))}
         </div>
